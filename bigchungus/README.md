@@ -1,16 +1,4 @@
-# House of big chungus
-
-This repo contains the _pwn_ challenge `House of big chungus`.
-This is a heap exploitation challenge based on the `House of force` technique.
-
-# Flag(s) 
-`DDC{===WIDE_WILDERNESS===}`
-
-# Domain name (OR) Link to challenge on nextcloud
-`chungus.hkn`
-https://nextcloud.ntp-event.dk:8443/s/bWMq4Ri6DH2GexJ/download/Hobc.zip
-
-# Description(s) (THIS IS WHAT THE USER WILL SEE, YOU CAN USE MARKDOWN HERE))
+# Description
 ZanderDK once said "I wish we could use the big chungus here",
 I still have no clue what he meant.
 
@@ -18,14 +6,7 @@ https://nextcloud.ntp-event.dk:8443/s/bWMq4Ri6DH2GexJ/download/Hobc.zip
 
 `nc chungus.hkn 1024`
 
-# Prerequisites and Outcome
-
-Prerequisites
-- Know the house of force technique for heap exploitation.
-Outcome
-- We know you can use HOF.
-
-# Solutions (FULL WRITEUP FOR EACH FLAG.)
+# Intended solution
 The challenge consists of a single binary, it's source, and libc running on the remote server.
 
 The binary is a janky P3 PPM image format reader.
